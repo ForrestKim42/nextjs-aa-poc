@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 // Configuration
 const config = {
     rpcUrl: 'https://sepolia.base.org',
-    developerPrivateKey: process.env.DEVELOPER_PRIVATE_KEY || '0xc30c3607b10cec2359fc4175faba4823d176ca425472ee0854dd44e4201f4f52',
+    developerPrivateKey: process.env.DEVELOPER_PRIVATE_KEY,
     entryPointAddress: '0x4337084d9e255ff0702461cf8895ce9e3b5ff108'
 };
 
