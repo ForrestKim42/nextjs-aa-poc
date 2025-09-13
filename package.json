@@ -1,0 +1,33 @@
+{
+  "name": "aa-gasless-poc",
+  "version": "1.0.0",
+  "description": "Account Abstraction Gasless ERC-20 Transfer PoC using viem and solc",
+  "main": "scripts/poc.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/poc.js",
+    "test": "node scripts/poc.js"
+  },
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.8.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@openzeppelin/contracts-upgradeable": "^5.4.0",
+    "dotenv": "^16.4.0",
+    "solc": "^0.8.28",
+    "viem": "^2.21.0"
+  },
+  "keywords": [
+    "ethereum",
+    "account-abstraction",
+    "erc-4337",
+    "gasless",
+    "viem",
+    "base-sepolia"
+  ],
+  "author": "Developer",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^3.0.6"
+  }
+}
